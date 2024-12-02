@@ -1,0 +1,118 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    font-family: 'Akira Super';
+    font-style: expanded bold;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.nav-list li {
+    display: inline-block;
+    margin-right: 0px; 
+    padding: 10px 20px; 
+    background-color: #0054ef; 
+}
+
+.nav-list li:hover{
+    background-color: #699eff;
+}
+
+.nav-list a {
+    text-decoration: none; 
+    color: #ffffff; 
+}
+
+.nav-list a:hover {
+    color: #000000; 
+}
+
+.hero {
+    background-image:url("hero-image.png");
+    background-size: cover;
+    background-position-y: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+
+.featured-products {
+    font-family: 'Times New Roman';
+    font-style: italic;
+    display: flex;
+    background-color: white;
+}
+
+.featured-products > div{
+    width:33%;
+    text-align: center;
+}
+
+.featured-products > p{
+    position: absolute;
+}
+
+.about-us {
+    text-align: center;
+    padding: 40px;
+    background-color: #333;
+    color: #fff;
+    font-family: 'Akira Super';
+    font-style: expanded bold;
+    
+}
+
+
+.contact-us {
+    padding: 40px;
+    background-color: #333; 
+    color: #fff;
+}
+
+.contact-us > div{
+    width:33%;
+    font-family: 'Akira Super';
+    font-style: expanded bold;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Akira Super';
+    font-style: expanded bold;
+}
+
+button {
+    background-color: #0054ef;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Akira Super';
+    font-style: expanded bold;
+  }
